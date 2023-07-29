@@ -1,0 +1,4 @@
+system call
+00 put Output a number in hexadecimal
+01 write Write output characters
+ff dump dump memory

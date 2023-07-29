@@ -1,0 +1,27 @@
+00 hlt
+01 mov reg, num
+02 mov reg, reg
+03 mov reg, add
+04 mov add, reg
+05 mov add, add
+06 and reg, reg
+07 or reg, reg
+08 not reg, reg
+09 push reg
+0a pop reg
+0b cmp reg, reg
+0c jmp add
+0d true
+0e syscall
+0f add reg, reg
+10 sub reg, reg
+11 mul reg, reg
+12 div reg, reg
+13 mod reg, reg
+14 exit
+15 mov add, num
+16 mov reg, radd
+17 mov radd, reg
+18 mov radd, radd
+19 mov radd, add
+1a mov add, radd

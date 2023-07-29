@@ -1,0 +1,7 @@
+register
+R0-R5  ax, bx, cx, dx, ex, fx
+R6 ac アドレスカウンタ
+R7 bp ベースポインタ
+R8 ic
+R9 pc 無し
+R10 sc スタックポインタ
