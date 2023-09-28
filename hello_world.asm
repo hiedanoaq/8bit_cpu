@@ -13,20 +13,15 @@ jmp L3
 
 L4:
 push bx
-push cx
 mov bx, ex
 mov ax, 0x01
-syscall
-pop cx
-mov bx, dx
-mov ax, 0x00
 syscall
 pop bx
 
 LE3:
 mov fx, 1
-add dx, fx
-mov dx, ax
+add cx, fx
+mov cx, ax
 
 L3:
 add bx, cx
